@@ -1,0 +1,3 @@
+include ':app'
+include ':zxing_88'
+project(':zxing_88').projectDir = new File(settingsDir, '../zxing_88')
